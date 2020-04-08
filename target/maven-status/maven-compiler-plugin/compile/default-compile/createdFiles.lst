@@ -1,0 +1,13 @@
+com\qa\hrm\pages\HomePage.class
+com\qa\hrm\pages\JobPage.class
+com\qa\hrm\pages\EditPage.class
+com\qa\hrm\pages\SystemUsersPage.class
+com\qa\hrm\pages\LoginPage.class
+com\qa\hrm\pages\WorkShiftPage.class
+com\qa\hrm\pages\OrgGeneralInfo.class
+com\qa\hrm\pages\AddJobTitlePage.class
+com\qa\ExtentReportListener\ExtentReporterNG.class
+com\qa\hrm\utility\UtilTest.class
+HRMTest\HRM\App.class
+com\qa\hrm\Base\BaseClass.class
+com\qa\hrm\pages\OrganizationStructurePage.class

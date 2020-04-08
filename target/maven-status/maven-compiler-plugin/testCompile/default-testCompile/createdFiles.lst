@@ -1,0 +1,9 @@
+com\qa\hrm\TestCases\WorkShiftTestCase.class
+com\qa\hrm\TestCases\LoginPageTest.class
+NewTest.class
+com\qa\hrm\TestCases\HomeTestCase.class
+com\qa\hrm\TestCases\GeneralInfoTestCase.class
+com\qa\hrm\TestCases\OrganizationStructureTestCase.class
+com\qa\hrm\TestCases\JobPageTest.class
+com\qa\hrm\TestCases\SystemUserTestCase.class
+com\qa\hrm\TestCases\AddJobTitleTest.class

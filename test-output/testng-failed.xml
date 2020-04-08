@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FREE CRM Application Test Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="HRM test case(failed)">
+    <classes>
+      <class name="com.qa.hrm.TestCases.AddJobTitleTest">
+        <methods>
+          <include name="JobTitleForm"/>
+          <include name="TearDown"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- com.qa.hrm.TestCases.AddJobTitleTest -->
+      <class name="com.qa.hrm.TestCases.GeneralInfoTestCase">
+        <methods>
+          <include name="validateGenralInfo"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- com.qa.hrm.TestCases.GeneralInfoTestCase -->
+    </classes>
+  </test> <!-- HRM test case(failed) -->
+</suite> <!-- Failed suite [FREE CRM Application Test Automation Test Suite] -->
