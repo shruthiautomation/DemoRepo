@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HRM test Suite">
+
+	<listeners>
+		<listener class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+
+
+	<test name="HRM test case">
+		<classes>
+			 <class name="com.qa.hrm.TestCases.AddJobTitleTest"/>
+      <class name="com.qa.hrm.TestCases.GeneralInfoTestCase"/>
+      <class name="com.qa.hrm.TestCases.HomeTestCase"/>
+      <class name="com.qa.hrm.TestCases.JobPageTest"/>
+      <class name="com.qa.hrm.TestCases.LoginPageTest"/>
+      <class name="com.qa.hrm.TestCases.OrganizationStructureTestCase"/>
+      <class name="com.qa.hrm.TestCases.SystemUserTestCase"/>
+      <class name="com.qa.hrm.TestCases.WorkShiftTestCase"/>
+		</classes>
+	</test>
+</suite>
+     
+   
